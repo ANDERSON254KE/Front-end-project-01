@@ -1,0 +1,79 @@
+*{
+    
+     font-size: medium;
+     font-family:sans-serif ;
+    
+}
+body{
+     justify-content: center;
+    place-content: center;
+   
+}
+.cover{
+     background-color: rgb(223, 230, 221);
+     position: relative;
+     padding: 30px;
+     top: 50px;
+     height: 800px;
+     width: 830px;
+align-self: center;
+}
+
+.sidenav{
+   /* background-image: url(/bg-sidebar-desktop.png); */
+     background-color:paleturquoise;
+     width: 300px;
+     height: 
+     100%;
+     position:relative;
+     border-radius:15px ;
+}
+.selectplan{
+     /* background-color: blueviolet; */
+     position: relative;
+     height: 340px;
+     width: 400px;
+     left: 350px;
+     bottom: 670px;
+}
+
+.card1{
+position: relative;
+left: 250px;
+bottom: 145px;
+
+}
+.card2{
+     position: relative;
+     left: 140px;
+     bottom: 60px;
+
+     }  
+    
+    
+     #back{
+          position: relative;
+          border-radius: 6px;
+          box-shadow:0 3px 9px 0 rgb(81, 23, 135);
+                 padding: 9px;
+          background-color: rgb(124, 124, 195);
+    color: #eef1f4;
+     }
+#but{
+     position: relative;
+     border-radius: 6px;
+     box-shadow:0 3px 9px 0 rgb(81, 23, 135);
+     left: 350px;
+     padding: 9px;
+     background-color: rgb(22, 150, 43);
+}
+.card,.card1,.card2{
+     box-shadow: 0 4px 8px 0 rgba(12, 107, 208, 0.52);
+     transition: 0.5s;
+     background-color: #224562;
+     border-radius: 5px;
+     padding: 10px;
+     width: 120px;
+     height: 130px;
+     } 
+     

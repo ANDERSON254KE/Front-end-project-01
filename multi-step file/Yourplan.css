@@ -1,0 +1,37 @@
+*{
+    
+     font-size: medium;
+     font-family:Ubuntu-Bold ;
+}
+
+.cover{
+     background-color: rgb(213, 227, 227);
+     position: relative;
+     padding: 30px;
+     top: 50px;
+     height: 500px;
+}
+.sidenav{
+     background: url("/bg-sidebar-desktop.png");
+     /* background-color:paleturquoise; */
+     width: 300px;
+     height: 
+     100%;
+     position:fixed;
+}
+#name,#email,#number{
+     border-radius: 9px;
+     border-color: rgb(64, 50, 215);
+     padding:10px 15px;
+}
+#name:hover ,#email:hover, #number:hover{
+     border-color: darkslateblue;
+     }
+     .personalinfo{
+          /* background-color: blueviolet; */
+          position: relative;
+          height: 340px;
+          width: 400px;
+          left: 350px;
+          bottom: 450px;
+     }
